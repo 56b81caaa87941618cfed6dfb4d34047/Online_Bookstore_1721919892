@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1721919906', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">BookBuyNow - Your Online Bookstore</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to common questions about buying books online</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1721919906', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "What payment methods do you accept?",
+          a: "We accept all major credit cards, debit cards, and popular online payment platforms like PayPal and Apple Pay for a secure and convenient shopping experience."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "How do I track my order?",
+          a: "After placing your order, you'll receive an email with a tracking number. Just enter this on our website to see the real-time status of your shipment."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "Do you offer free shipping?",
+          a: "Yes, we provide free standard shipping on all orders over $35 within the continental United States. Expedited shipping options are available at checkout for an additional fee."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "What is your return policy?",
+          a: "We have a 30-day return window for most items. Returns are easy - just visit our website, click on 'Returns', and follow the instructions. Some exceptions may apply."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "How can I get updates on new book releases?",
+          a: "Sign up for our newsletter to get personalized book recommendations and be the first to know about new releases, special offers, and more!"
         }
       ]
     }
